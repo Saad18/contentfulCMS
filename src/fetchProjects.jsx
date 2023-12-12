@@ -5,7 +5,7 @@ const client = createClient({
 
     space: 'vbikt4bhx25h',
     environment: 'master', // master is default
-    accessToken: 'dC-1lecCkA4MKUOS7SKgKhaXgBLv8QgpOnY4WoXhfug',
+    accessToken: import.meta.env.VITE_API_KEY,
 
 });
 
